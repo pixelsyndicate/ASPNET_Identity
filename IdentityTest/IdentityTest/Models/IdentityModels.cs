@@ -1,6 +1,12 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
+using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls.WebParts;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -31,4 +37,6 @@ namespace IdentityTest.Models
             return new ApplicationDbContext();
         }
     }
+
+
 }
